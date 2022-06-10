@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2215" />
         <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2215" />
+        <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/layout/activity_calendar_view.xml" value="0.33" />
         <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/layout/activity_formulario_registro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/layout/activity_grafico_lineal.xml" value="0.20923913043478262" />
         <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/alexm/AndroidStudioProjects/AMST_G1/app/src/main/res/layout/activity_menu_ingreso.xml" value="0.36666666666666664" />
       </map>
