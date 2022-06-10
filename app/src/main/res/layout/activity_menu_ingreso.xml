@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <com.getbase.floatingactionbutton.FloatingActionButton
-            android:id="@+id/youtube"
+            android:id="@+id/idyoutube"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_icon="@drawable/youtube"
@@ -36,32 +36,32 @@
 
         </com.getbase.floatingactionbutton.FloatingActionButton>
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/calendario"
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idcalendario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_icon="@drawable/calendario"
             app:fab_size="mini">
 
-        </android.support.design.widget.FloatingActionButton>
+        </com.getbase.floatingactionbutton.FloatingActionButton>
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/mapas"
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idmapas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_icon="@drawable/mapa"
             app:fab_size="mini">
 
-        </android.support.design.widget.FloatingActionButton>
+        </com.getbase.floatingactionbutton.FloatingActionButton>
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/grafico"
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/idgrafico"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fab_icon="@drawable/grafico"
             app:fab_size="mini">
 
-        </android.support.design.widget.FloatingActionButton>
+        </com.getbase.floatingactionbutton.FloatingActionButton>
 
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
