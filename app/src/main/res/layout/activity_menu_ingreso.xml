@@ -6,15 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".menu_ingreso">
 
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="371dp"
+        android:layout_height="404dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497"
         app:srcCompat="@drawable/bienvenida" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/openMenu"
+        android:layout_width="69dp"
+        android:layout_height="290dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/youtube"
+            app:fab_size="mini">
+
+        </com.getbase.floatingactionbutton.FloatingActionButton>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/calendario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/calendario"
+            app:fab_size="mini">
+
+        </android.support.design.widget.FloatingActionButton>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/mapas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/mapa"
+            app:fab_size="mini">
+
+        </android.support.design.widget.FloatingActionButton>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/grafico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_icon="@drawable/grafico"
+            app:fab_size="mini">
+
+        </android.support.design.widget.FloatingActionButton>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
 </android.support.constraint.ConstraintLayout>
