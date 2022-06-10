@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="53dp" />
+        android:layout_marginTop="17dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:text="Gráfico"
         android:textSize="34sp" />
 
@@ -30,7 +30,7 @@
         android:layout_below="@+id/graph"
         android:layout_marginStart="150dp"
         android:layout_marginLeft="150dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="19dp"
         android:onClick="regresar"
         android:text="Regresar" />
 

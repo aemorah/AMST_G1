@@ -3,10 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.amst_g1">
 
-    <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="@string/google_maps_key" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"

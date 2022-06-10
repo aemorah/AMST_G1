@@ -29,8 +29,7 @@ public class menu_ingreso extends AppCompatActivity {
 
         botYou.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                vid(view);
+            public void onClick(View view) {video(view);
             }
         });
 
@@ -64,7 +63,7 @@ public class menu_ingreso extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void vid(View view) {
+    public void video(View view) {
         Intent intent = new Intent(this, video_view.class);
         startActivity(intent);
     }
